@@ -45,7 +45,7 @@ git clone https://github.com/TheGreggle/ContactsManager.Core
 
 Should you wish to use a version of Microsoft SQL Server that is not express the following changes may be required.
 
-1. Update `<RootPath>\ContactManager.Core\Web.config` `<connectionStrings>` to support a configuration of Microsoft Server SQL other than Express.
+1. Update `<RootPath>\ContactManager.Core\appsettings.json` `<ConnectionStrings>` to support a configuration of Microsoft Server SQL other than Express.
 2. You may need to add `TrustServerCertificate=true` to the SQL Server connection string.
 
 ## Start Project
